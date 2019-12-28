@@ -62,7 +62,7 @@ def VGG19_predict_breed(img_path):
     return dog_names[np.argmax(predicted_vector)]
 
 
-VGG19_model = load_model('VGG19_model.h5')
+VGG19_model = load_model('saved_models/VGG19_model.h5')
 VGG19_model.load_weights('saved_models/weights.best.VGG19.hdf5')
 
 
