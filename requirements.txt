@@ -5,7 +5,7 @@ tensorflow
 keras
 numpy
 pandas
-opencv
+opencv-python
 glob
 tqdm
 matplotlib
