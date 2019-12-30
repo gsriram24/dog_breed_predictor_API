@@ -43,6 +43,7 @@ VGG19_model = load_model('saved_models/VGG19_model.h5')
 def api_id():
     file = request.files['file']
     filename = file.filename
+
     file_directory = os.path.join('images/', filename)
     file.save(file_directory)
     results = {}
@@ -52,4 +53,5 @@ def api_id():
 
 
 if __name__ == '__main__':
+    os.makedirs('images/')
     app.run(threaded=False, port=80)
