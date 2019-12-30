@@ -1,7 +1,7 @@
 Werkzeug
 Flask
 gunicorn
-tensorflow
+tensorflow-cpu
 keras
 numpy
 pandas
