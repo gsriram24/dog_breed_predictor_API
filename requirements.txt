@@ -6,6 +6,4 @@ keras
 numpy
 pandas
 opencv-python
-glob
-tqdm
 matplotlib
