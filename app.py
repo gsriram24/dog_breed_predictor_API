@@ -51,4 +51,5 @@ def api_id():
     return jsonify(results)
 
 
-app.run(threaded=False)
+if __name__ == '__main__':
+    app.run(threaded=False, port=80)
