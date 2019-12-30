@@ -1,0 +1,11 @@
+Werkzeug
+Flask
+gunicorn
+tensorflow
+keras
+numpy
+pandas
+opencv
+glob
+tqdm
+matplotlib
