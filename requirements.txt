@@ -6,3 +6,4 @@ keras
 numpy
 pandas
 tqdm
+pillow
